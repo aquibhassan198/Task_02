@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #2A2E32;
+           
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            opacity: 1;
+        }
+        #container{
+            width: 100%;
+            height:100px;
+            /* border: 1px solid red; */
+            display: flex;
+           border-radius: 2pc;
+           background-color:#b6f2d6;
+           /* border-radius: 20%; */
+           box-shadow: 0px 13px 27px -5px rgba(50,50,93,0.25) , 0px 8px 16px -8px rgba(0,0,0,0.3) , 0px -6px 16px -6px rgba(0,0,0,0.025);
+           cursor: pointer;
+        }
+        #container:hover{
+            background-color: #e3f9d8;
+        }
+        
+        #h{
+           display: flex;
+           margin: auto;
+           gap:12px;
+           margin-left: 350px;
+           color:#799CFB;
+           cursor: pointer;
+        }
+     
+        h1{
+            margin-left: 20px;
+            color:#CF4A22;
+            animation: blink-animation 1s infinite alternate;
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+        
+        @keyframes blink-animation {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        
+       
+        #img{
+            width: 99%;
+            height: 400px;
+            /* border: 1px solid blue; */
+            position: absolute;
+            left:50%;
+            top:55%;
+            transform: translate(-50%,-50%);
+            background-image: url("https://imgd.aeplcdn.com/310x174/n/cw/ec/130591/fronx-exterior-right-front-three-quarter-109.jpeg?isig=0&q=80");
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 10px 5px white;
+            animation: slider 10s infinite linear;
+            border-radius: 4pc;
+            background-color:black;
+        }
+        @keyframes slider{
+            5%{ background-image: url("https://imgd.aeplcdn.com/310x174/n/cw/ec/40432/scorpio-n-exterior-right-front-three-quarter-75.jpeg?isig=0&q=80")}
+            30%{background-image: yrl("https://imgd.aeplcdn.com/664x374/n/cw/ec/107543/brezza-exterior-right-front-three-quarter-7.jpeg?isig=0&q=80");}
+            75%{background-image: url("https://cdn.motor1.com/images/mgl/ZnmO23/s1/future-cars-2023-2026.jpg");}
+            85%{background-image: url("https://imageio.forbes.com/specials-images/imageserve/5f962df3991e5636a2f68758/0x0.jpg?format=jpg&crop=812,457,x89,y103,safe&height=900&width=1600&fit=bounds");}
+            90%{background-image: url("https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960");}
+            100%{background-image: url("https://media.architecturaldigest.com/photos/63079fc7b4858efb76814bd2/16:9/w_4000,h_2250,c_limit/9.%20DeLorean-Alpha-5%20%5BDeLorean%5D.jpg");}
+        }
+        /* #c{
+            margin-top: 450px;
+            text-align: center;
+            font-size: 40px;
+            color: #7ce3b3;
+            
+        } */
+        p{
+            text-align: center;
+           word-spacing: 5%;
+           letter-spacing: 1px;
+           font-style: italic; 
+           font-family: Arial, sans-serif;
+           margin-bottom: 80px;
+            
+        }
+    #a{
+        margin-bottom: 100px;
+            animation: move 2s linear infinite;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            word-spacing: 4px;
+            font-family: "Times New Roman", Times, serif;
+            color:#EF4444;
+           font-size: 20px;
+           animation: 2s;
+            
+        }
+        /* @keyframes move {
+            0% { transform: translateX(0); } 
+             100% { transform: translateX(200px); }
+        }  */
+        img{
+            width:50px;
+            padding:10px;
+        }
+        #car{
+            width:100%;
+            height:800px;
+            /* border: 1px solid red; */
+            margin-top: 440px;
+            border-radius: 3pc;
+           
+        }
+        #new{
+            width:1000px;
+            height: 790px;
+            margin-left: 480px;
+            
+        }
+        #en{
+            margin-top: -790px;
+            margin-left: 20px;
+            font-size: 30px;
+            color:#da5a00;
+        }
+        #type{
+            margin-right: 1350px;
+            margin-left: 40px;
+        }
+        #pet{
+            margin-right: 1350px;
+            margin-top: -30px;
+            font-style: italic; 
+            margin-left: 40px;
+            margin-top: -10px;
+            color:#E40046;
+        }
+        #t{
+            margin-top: -20px;
+            margin-right: 1900px;
+            margin-left: 50px;
+            color:#935C07;
+            
+        }
+        h3{
+            margin-top: -50px;
+            margin-left: 30px;
+            font-size: 30px; 
+            color:#139CAB;
+        }
+        h4{
+            margin-top: -60px;
+            margin-left: 30px;
+            font-size:30px ;
+            color:#83941f;
+        }
+        #p{
+            margin-top: -20px;
+            margin-right: 1300px;
+            color:#cc1016;
+
+        }
+        h5{
+            margin-top: -50px;
+            margin-left: 30px;
+            font-size: 25px;
+            color:#7700a6;
+        }
+        #m{
+            margin-right: 1200px;
+            margin-top: -20px;
+            color:#d29922;
+        }
+        #l{
+            margin-top: -60px;
+          margin-left: 30px;
+          color:#06b66c;
+        }
+        #k{
+            margin-right: 1340px;
+            color:#bf470a;
+        }
+        #f{
+            /* margin-right: 850px; */
+           text-align: center;
+           word-spacing: 5%;
+           letter-spacing: 1px;
+           font-style: italic; 
+           font-family: Arial, sans-serif;
+           margin-left: 400px;
+
+        }
+        #c{
+            text-align: center;
+            align-items: center;
+            margin-left: 400px;
+            margin-top: -500px;
+        }
+        #f{
+            margin-left: 50px;
+            color:#424242;
+        }
+        #v{
+            margin-top: -60px;
+            color:#424242;
+        }
+        #u{
+            animation: move 2s  infinite;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            word-spacing: 4px;
+            font-family: "Times New Roman", Times, serif; 
+            font-size: 20px;
+           animation: 2s;
+        }
+        #s{
+            margin-right:1090px;
+            color:#43B4D8;
+            animation: blink-animation 1s infinite alternate;
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Fusion Automotive</h1>
+       
+      <div id="h">
+        
+        <h2>About Us</h2>
+        <h2>Home</h2>
+        <h2>Features</h2>
+        <h2>Variations</h2>
+        <h2>Special</h2>
+        <h2>Contact</h2>
+        <img src="https://logowik.com/content/uploads/images/facebook-new-2023-icon9594.logowik.com.webp"/>
+        <img src="https://static.vecteezy.com/system/resources/previews/018/910/697/original/instagram-mobile-app-logo-instagram-app-icon-ig-app-free-free-vector.jpg"/>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTouYIaz1FAj2vucSUIzx79dTGacSq1BnsTq8eAbFVHmw&s"/>
+    </div>
+     
+    </div>
+<div id="img"></div>
+<!-- <p id="a">"I love the way music inside a car makes you feel invisible; if you play the stereo at max volume, it's almost like the other people can't see into your vehicle. It tints your windows, somehow." "You don't love someone for their looks, or their clothes, or for their fancy car, but because they sing a song only you can hear." - Oscar Wilde </p> -->
+<p id="a">
+<marquee behavior="" direction="">I love the way music inside a car makes you feel invisible;if you play the stereo at max volume, it's almost like the other people can't see into your vehicle. It tints your windows, somehow." "You don't love someone for their looks, or their clothes, or for their fancy car, but because they sing a song only you can hear." - Oscar Wilde</marquee>
+</p>
+<!-- <h3 id="c">Featured Used Cars</h3>
+    <p>Introducing the Fusion Automotive GT-500: Experience the epitome of power and luxury fused into one sleek machine. The GT-500 boasts a meticulously engineered turbocharged V8 engine, delivering exhilarating performance with every press of the pedal. Its aerodynamic design slices through the air effortlessly, enhancing both efficiency and style. Step inside the meticulously crafted interior, where premium materials and cutting-edge technology await, providing unparalleled comfort and connectivity on every journey. With its advanced safety features and dynamic handling, the Fusion Automotive GT-500 redefines the driving experience, offering the perfect blend of performance and refinement for the modern enthusiast.</p> -->
+    <div id="car">
+        <img id="new" src="https://getwallpapers.com/wallpaper/full/5/6/d/1096611-black-car-wallpaper-1920x1080-screen.jpg"/>
+        <h4 id="en">Engine Type</h4>
+        
+        <p id="pet">3.0-Litre Turbocharged Petrol Engine</p>
+        <!-- <p id="pet">Engine CC2993,2998 CC</p> -->
+        <h3>Max Torque</h3>
+            <p id="t">520,650 Nm</p>
+           <h4>Max Power</h4>
+           <p id="p">281,375 bhp</p>
+           <h5>Length/Width/Height</h5>
+           <p id="m">5391 mm /1950 mm /1544 mm</p>
+           <h2 id="l">Mileage</h2>
+           <p id="k">12.60 KM/L</p>
+           <p id="s">The on-road price for this Series in Mumbai<br>ranges between ₹ 2.12 to 2.19 Crore. </p>
+<div id="c">
+    <marquee id="u" behavior="" direction="up">
+           <p id="f">Advanced infotainment system with navigation, media playback, and Bluetooth connectivity.</p>
+           <p id="v">Adaptive LED headlights for improved visibility.</p>
+           <p id="v">Various driving modes such as Comfort, Sport, and Eco Pro.</p>
+           <p id="v">Digital instrument cluster displaying important vehicle information.</p>
+           <p id="v">Performance enhancements such as adaptive suspension and variable sport steering.</p>
+           <p id="v">Premium audio systems for high-quality sound reproduction.</p>
+        </marquee>
+        </div>
+      </div>
+
+</body>
+</html>
